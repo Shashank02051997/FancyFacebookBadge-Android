@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fl_container"
+    android:visibility="invisible"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:paddingRight="5dp"
+        android:paddingLeft="3dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        >
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/likeimg"
+        android:id="@+id/iv_badge_bg"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_badge_text"
+        android:text="14"
+        android:textSize="16dp"
+        android:textColor="#3F51B5"
+        android:layout_marginLeft="28dp"
+        />
+    </RelativeLayout>
+</FrameLayout>
