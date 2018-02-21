@@ -10,13 +10,12 @@ import com.shashank.sony.fancyfacebookbadgelib.Emoji;
 import com.shashank.sony.fancyfacebookbadgelib.FacebookNotificationBadge;
 
 public class MainActivity extends AppCompatActivity {
-    private FacebookNotificationBadge mBadge;
     private int mCount = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mBadge = findViewById(R.id.badge);
+        final FacebookNotificationBadge mBadge = (FacebookNotificationBadge) findViewById(R.id.badge);
         mBadge.setEmoji(Emoji.HAHA);
         Button increase = (Button) findViewById(R.id.button);
         increase.setOnClickListener(new View.OnClickListener() {
