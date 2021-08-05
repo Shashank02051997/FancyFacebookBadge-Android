@@ -1,8 +1,7 @@
 package com.shashank.sony.fancyfacebookbadgelibrary;
 
-import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
@@ -10,7 +9,9 @@ import com.shashank.sony.fancyfacebookbadgelib.Emoji;
 import com.shashank.sony.fancyfacebookbadgelib.FacebookNotificationBadge;
 
 public class MainActivity extends AppCompatActivity {
+
     private int mCount = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

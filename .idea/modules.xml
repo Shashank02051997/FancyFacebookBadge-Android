@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FancyFacebookBadgeLibrary.iml" filepath="$PROJECT_DIR$/FancyFacebookBadgeLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fancyfacebookbadgelib/fancyfacebookbadgelib.iml" filepath="$PROJECT_DIR$/fancyfacebookbadgelib/fancyfacebookbadgelib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FancyFacebookBadgeLibrary.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FancyFacebookBadgeLibrary.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fancyfacebookbadgelib/FancyFacebookBadgeLibrary.fancyfacebookbadgelib.iml" filepath="$PROJECT_DIR$/.idea/modules/fancyfacebookbadgelib/FancyFacebookBadgeLibrary.fancyfacebookbadgelib.iml" />
     </modules>
   </component>
 </project>

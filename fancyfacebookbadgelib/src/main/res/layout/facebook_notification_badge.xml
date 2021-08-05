@@ -1,36 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/fl_container"
-    android:visibility="invisible"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:visibility="invisible">
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/facebook_notification_bade_shape"
-        android:paddingRight="5dp"
         android:paddingLeft="3dp"
         android:paddingTop="2dp"
-        android:paddingBottom="2dp"
-        >
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp">
 
-    <ImageView
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginBottom="2dp"
-        android:src="@drawable/likeimg"
-        android:id="@+id/iv_badge_bg"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tv_badge_text"
-        android:text="14"
-        android:textSize="16dp"
-        android:textColor="#3F51B5"
-        android:layout_marginLeft="28dp"
-        />
+        <ImageView
+            android:id="@+id/iv_badge_bg"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="2dp"
+            android:src="@drawable/likeimg" />
+
+        <TextView
+            android:id="@+id/tv_badge_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:text="14"
+            android:textColor="#3F51B5"
+            android:textSize="16sp" />
     </RelativeLayout>
 </FrameLayout>

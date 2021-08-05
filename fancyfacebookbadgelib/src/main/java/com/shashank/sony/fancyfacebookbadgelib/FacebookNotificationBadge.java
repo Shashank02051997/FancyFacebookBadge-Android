@@ -1,8 +1,5 @@
 package com.shashank.sony.fancyfacebookbadgelib;
 
-/**
- * Created by Sony on 23-01-2018.
- */
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;

@@ -5,5 +5,5 @@ package com.shashank.sony.fancyfacebookbadgelib;
  */
 
 public enum Emoji {
-    ANGRY,HAHA,LIKE,LOVE,SAD,WOW
+    ANGRY, HAHA, LIKE, LOVE, SAD, WOW
 }
