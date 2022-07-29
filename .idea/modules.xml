@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FancyFacebookBadgeLibrary.iml" filepath="$PROJECT_DIR$/FancyFacebookBadgeLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FancyFacebookBadgeLibrary.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FancyFacebookBadgeLibrary.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fancyfacebookbadgelib/FancyFacebookBadgeLibrary.fancyfacebookbadgelib.iml" filepath="$PROJECT_DIR$/.idea/modules/fancyfacebookbadgelib/FancyFacebookBadgeLibrary.fancyfacebookbadgelib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FancyFacebookBadge-Android.iml" filepath="$PROJECT_DIR$/.idea/modules/FancyFacebookBadge-Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FancyFacebookBadge-Android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FancyFacebookBadge-Android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FancyFacebookBadge-Android.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FancyFacebookBadge-Android.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FancyFacebookBadge-Android.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FancyFacebookBadge-Android.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FancyFacebookBadge-Android.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FancyFacebookBadge-Android.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fancyfacebookbadgelib/FancyFacebookBadge-Android.fancyfacebookbadgelib.iml" filepath="$PROJECT_DIR$/.idea/modules/fancyfacebookbadgelib/FancyFacebookBadge-Android.fancyfacebookbadgelib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fancyfacebookbadgelib/FancyFacebookBadge-Android.fancyfacebookbadgelib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/fancyfacebookbadgelib/FancyFacebookBadge-Android.fancyfacebookbadgelib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fancyfacebookbadgelib/FancyFacebookBadge-Android.fancyfacebookbadgelib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fancyfacebookbadgelib/FancyFacebookBadge-Android.fancyfacebookbadgelib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fancyfacebookbadgelib/FancyFacebookBadge-Android.fancyfacebookbadgelib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/fancyfacebookbadgelib/FancyFacebookBadge-Android.fancyfacebookbadgelib.unitTest.iml" />
     </modules>
   </component>
 </project>

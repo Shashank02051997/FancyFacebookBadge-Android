@@ -16,22 +16,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final FacebookNotificationBadge mBadge = (FacebookNotificationBadge) findViewById(R.id.badge);
+        final FacebookNotificationBadge mBadge = findViewById(R.id.badge);
         mBadge.setEmoji(Emoji.HAHA);
-        Button increase = (Button) findViewById(R.id.button);
-        increase.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mBadge.setNumber(++mCount);
-            }
-        });
-        Button clear = (Button) findViewById(R.id.button2);
-        clear.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mCount = 0;
-                mBadge.setNumber(mCount);
-            }
+        Button increase = findViewById(R.id.button);
+        increase.setOnClickListener(view -> mBadge.setNumber(++mCount));
+        Button clear = findViewById(R.id.button2);
+        clear.setOnClickListener(view -> {
+            mCount = 0;
+            mBadge.setNumber(mCount);
         });
 
     }

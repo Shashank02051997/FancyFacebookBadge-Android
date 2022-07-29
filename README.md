@@ -30,7 +30,7 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 ```gradle
 dependencies {
 	...
-	implementation 'com.github.Shashank02051997:FancyFacebookBadge-Android:1.5'
+	implementation 'com.github.Shashank02051997:FancyFacebookBadge-Android:1.6'
 }
 ```
 # Fancy Facebook Badge
